@@ -12,10 +12,18 @@ footer links grey: #454245
 * {
     margin: 0;
     padding: 0;
+    
+    
+}
+
+body{
+
+    flex-direction: column;
 }
 
 body > nav > div {
     background-color: #540B51;
+    flex-direction: column;
 } 
 
 nav {
