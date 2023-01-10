@@ -72,12 +72,15 @@ header > div, .purple-background {
 }
 
 .ivory-background img {
-    width: 25vw;
+    width: 23%;
 }
 
 .company-logos {
+    
     display: flex;
-    justify-content: space-between;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .great-teamwork{
@@ -130,4 +133,10 @@ header > div, .purple-background {
     padding-top: 7%;
     padding-bottom: 5%;
     width: 98vw;
+}
+ .connected-pic {
+    
+    width: 35%;
+    height: 56%;
+
 }
