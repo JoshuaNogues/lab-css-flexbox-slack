@@ -25,7 +25,17 @@ nav {
 }
 
 .logo {
+    display: flex;
+    justify-content: left;
     width:10vh;
+}
+
+.search-top{
+    
+    display: flex;
+    flex-direction: column;
+    
+
 }
 
 header > div, .purple-background {
