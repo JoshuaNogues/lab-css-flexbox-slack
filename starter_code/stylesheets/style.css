@@ -56,6 +56,10 @@ header > div, .purple-background {
     width: 100vh;
 }
 
+.great-teamwork h1 {
+    font-size: 3rem;
+}
+
 .slack-screenshot,
  .connected-pic, 
  .flexible-mobile-pic, 
@@ -66,31 +70,64 @@ header > div, .purple-background {
 .ivory-background {
     background-color: #F3EAE2;
 }
+
+.ivory-background img {
+    width: 25vw;
+}
+
+.company-logos {
+    display: flex;
+    justify-content: space-between;
+}
+
 .great-teamwork{
     text-align: center;
     display: flex;
     flex-direction: column;
+    width: 98vw;
     }
+
+.great-teamwork b {
+    color:#ECB12F;
+}
+
 .googlelogo{
     width: 2vh;
-
+    background-color: white;
+    display: flex;
 }
+
 .signgoogle{
     display: flex;
     align-items: center;
     padding: 6px 32px;
     background-color: #4285F4;
     border-color: #4285F4;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
     
 }
+
 .signupButtons{
     display: flex;
     justify-content: center;
 
 }
+
 .emailButton{
     background-color: white;
     padding: 10px 50px;
+    border-color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
 
-
+.ivory-background > p {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+    padding-bottom: 5%;
+    width: 98vw;
 }
