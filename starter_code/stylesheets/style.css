@@ -27,7 +27,7 @@ nav {
     background-color: #540B51;
     padding: 3vh;
     max-width:100%;
-    width:100vw
+    width:96vw
 }
 
 .logo {
@@ -46,6 +46,13 @@ header > div, .purple-background {
 
 .great-teamwork {
     width: 100vh;
+}
+
+.slack-screenshot,
+ .connected-pic, 
+ .flexible-mobile-pic, 
+ .speed-mobile-pic {
+    width: 98vw;
 }
 
 .ivory-background {
