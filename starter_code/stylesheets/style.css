@@ -27,15 +27,12 @@ body > nav > div {
 } 
 
 body {
-    background-color: #540B51;
     width: 98vw;
 }
 
 nav {
     background-color: #540B51;
     padding: 3vh;
-    max-width:100%;
-    width:96vw
 }
 
 .logo {
@@ -76,11 +73,15 @@ header > div, .purple-background {
 }
 
 .company-logos {
-    
     display: flex;
     align-content: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    height: 10vh;
+}
+
+.company-logos > img {
+    height: 3vh;
 }
 
 .great-teamwork{
@@ -88,7 +89,7 @@ header > div, .purple-background {
     display: flex;
     flex-direction: column;
     width: 98vw;
-    }
+}
 
 .great-teamwork b {
     color:#ECB12F;
@@ -130,13 +131,28 @@ header > div, .purple-background {
     font-size: 1.5rem;
     display: flex;
     justify-content: center;
-    padding-top: 7%;
+    padding-top: 5%;
     padding-bottom: 5%;
     width: 98vw;
 }
- .connected-pic {
-    
-    width: 35%;
-    height: 56%;
 
+.choose, .bring, .move {
+    background-color:#F3EAE2 ;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.teams {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.teams > h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.teams p {
+    display: flex;
+    justify-content: center;
 }
