@@ -18,24 +18,25 @@ body > nav > div {
     background-color: #540B51;
 } 
 
+body {
+    background-color: #540B51;
+    width: 98vw;
+}
+
 nav {
     background-color: #540B51;
     padding: 3vh;
-    width: 100%;
+    max-width:100%;
+    width:100vw
 }
 
 .logo {
-    display: flex;
-    justify-content: left;
-    width:10vh;
+    width: 10vh;
 }
 
-.search-top{
-    
+.search-top {
     display: flex;
-    flex-direction: column;
-    
-
+    justify-content: space-between
 }
 
 header > div, .purple-background {
@@ -43,7 +44,10 @@ header > div, .purple-background {
     color: white;
 }
 
+.great-teamwork {
+    width: 100vh;
+}
+
 .ivory-background {
     background-color: #F3EAE2;
 }
-
