@@ -18,6 +18,16 @@ body > nav > div {
     background-color: #540B51;
 } 
 
+nav {
+    background-color: #540B51;
+    padding: 3vh;
+    width: 100%;
+}
+
+.logo {
+    width:10vh;
+}
+
 header > div, .purple-background {
     background-color: #540B51;
     color: white;
