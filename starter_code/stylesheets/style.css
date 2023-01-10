@@ -66,3 +66,31 @@ header > div, .purple-background {
 .ivory-background {
     background-color: #F3EAE2;
 }
+.great-teamwork{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    }
+.googlelogo{
+    width: 2vh;
+
+}
+.signgoogle{
+    display: flex;
+    align-items: center;
+    padding: 6px 32px;
+    background-color: #4285F4;
+    border-color: #4285F4;
+    
+}
+.signupButtons{
+    display: flex;
+    justify-content: center;
+
+}
+.emailButton{
+    background-color: white;
+    padding: 10px 50px;
+
+
+}
