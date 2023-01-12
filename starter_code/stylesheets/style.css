@@ -145,15 +145,49 @@ header > div, .purple-background {
 .teams {
     padding-top: 5vw;
     padding-bottom: 5vw;
+
+    margin: 0 auto;
+     width: 656px; 
+     text-align: center;
+
+     position: relative;
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+     
 }
 
 .teams > h3 {
+    
     display: flex;
     justify-content: center;
+    font-size: 3rem;
 }
 
 .teams p {
     display: flex;
     justify-content: center;
+    font-size: 1.5rem;
 }
+.teams button {
+    margin: 0.8%;
+    width: 34rem;
+    height: 4rem;
+    font-size: 1.5rem;
 
+}
+.teams ul {
+    list-style-type: none
+        
+}
+.teams ul p {
+    font-size:x-small;
+    font-weight: bold;
+
+
+}
+.teams ul span{
+    font-size: 3.5rem;
+    color: #540B51;
+
+}
